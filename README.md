@@ -10,6 +10,7 @@ A real-time object detection and tracking system built using Python, OpenCV, and
 - Confidence filtering
 - Bounding boxes and object labels
 - Real-time object count
+- Supports built-in, external, and virtual cameras
 - Simple and easy-to-use implementation
 
 ## Technologies Used
@@ -20,7 +21,7 @@ A real-time object detection and tracking system built using Python, OpenCV, and
 
 ## How It Works
 
-1. The webcam captures video frames.
+1. The camera captures video frames.
 2. YOLO detects objects in each frame.
 3. The tracking system assigns IDs to detected objects.
 4. Bounding boxes and labels are displayed.
